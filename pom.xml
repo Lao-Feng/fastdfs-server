@@ -9,7 +9,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ca-mysql-starter</artifactId>
+    <artifactId>ca-fastdfs-starter</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
