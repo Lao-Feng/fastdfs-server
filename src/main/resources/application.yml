@@ -1,11 +1,8 @@
-fdfs:
- soTimeout: 30
- connectTimeout: 60
- thumbImage:             #ËõÂÔÍ¼Éú³É²ÎÊı
-  width: 150
-  height: 150
- trackerList:            #TrackerList²ÎÊı,Ö§³Ö¶à¸ö
-  - 192.168.128.141:22122
- pool:
-  max-total: 100
-  max-wait-millis: 60
+####  Demo Config  ####
+#fdfs:
+#  so-timeout: 1501
+#  connect-timeout: 601
+#  thumb-image:             #ç¼©ç•¥å›¾ç”Ÿæˆå‚æ•°
+#    width: 150
+#    height: 150
+#  tracker-list: 192.168.30.22:22122
