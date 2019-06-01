@@ -32,7 +32,6 @@ public class FastdfsTest {
         File file = new File("C:\\Users\\FengJie\\Desktop\\a.txt");
         FileInputStream inputStream = new FileInputStream(file);
         StorePath storePath = client.uploadFile(inputStream, file.length(), FilenameUtils.getExtension(file.getName()), null);
-
         // 带分组的路径
         System.out.println("http://192.168.20.41:8888/" + storePath.getFullPath());
     }
